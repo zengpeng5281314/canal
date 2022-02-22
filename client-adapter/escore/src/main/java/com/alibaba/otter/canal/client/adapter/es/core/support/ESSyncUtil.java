@@ -185,7 +185,7 @@ public class ESSyncUtil {
                         }
                     }
                 }else if(val instanceof java.time.LocalDateTime){
-                    //对java.time.LocalDateTime 做处理
+                    //对 java.time.LocalDateTime 类型 做处理
                     ZoneId zoneId = ZoneId.systemDefault();
                     LocalDateTime localDateTime = (LocalDateTime) val;
                     ZonedDateTime zdt = localDateTime.atZone(zoneId);
