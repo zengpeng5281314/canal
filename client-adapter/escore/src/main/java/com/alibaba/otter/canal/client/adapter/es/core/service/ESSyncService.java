@@ -712,6 +712,7 @@ public class ESSyncService {
                                 Object value = "";
                                 // 判断是否是主键
                                 if (fieldName.equals(mapping.get_id())) {
+                                    //暂时写死
                                     value = values.get(0);
                                     fieldName = "_id";
 
